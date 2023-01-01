@@ -1,6 +1,7 @@
-# frozen_string_literal: true
+# Προγραμμα διαβαζει παιχνιδια απο τον χρηστη και να τα αποθηκεύει σε ενα array (hashmap) και να τα εμφανιζει με αλφαβητικη σειρα
 
-class Test
-  print "YOLO CSGO"
-  print "hello 2"
-end
+games = ["Call of Duty", "Counter Strike", "Grand Theft Auto", "Assassin's Creed"]
+games.each { |n| puts "Παιχνιδι: "  + n }
+
+
+
